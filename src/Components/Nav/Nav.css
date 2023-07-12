@@ -1,0 +1,20 @@
+@media screen and (max-width: 800px) {
+  .container-nav div .area-nav {
+    width: 400px;
+  }
+  .container-nav div .area-nav .icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .container-nav div .area-nav {
+    width: 300px;
+  }
+  .container-nav div .area-nav .icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/*# sourceMappingURL=Nav.css.map */

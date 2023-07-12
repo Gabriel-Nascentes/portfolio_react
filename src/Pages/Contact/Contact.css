@@ -1,0 +1,41 @@
+@media screen and (max-width: 1300px) {
+  .container-contact {
+    height: 700px !important;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .container-contact {
+    height: 600px !important;
+  }
+  .container-contact .contact-box {
+    padding: 20px;
+  }
+  .container-contact div {
+    padding: 0;
+  }
+  .container-contact h1 {
+    font-size: 24px;
+  }
+  .container-contact p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container-contact .contact-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+  }
+  .container-contact .animation-contact {
+    width: 80%;
+  }
+  .container-contact .info-contact {
+    width: 100%;
+  }
+  .container-contact .info-contact .box-icons {
+    gap: 30px;
+  }
+}
+
+/*# sourceMappingURL=Contact.css.map */

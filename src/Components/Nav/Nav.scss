@@ -1,0 +1,26 @@
+@media screen and (max-width: 800px) {
+  .container-nav {
+    div {
+      .area-nav {
+        width: 400px;
+        .icon {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 660px) {
+  .container-nav {
+    div {
+      .area-nav {
+        width: 300px;
+        .icon {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  }
+}

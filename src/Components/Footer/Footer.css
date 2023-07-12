@@ -1,0 +1,19 @@
+@media screen and (max-width: 1100px) {
+  .footer p {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .footer p {
+    width: 125px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .footer p {
+    width: 125px;
+    font-size: 8px;
+  }
+}
+
+/*# sourceMappingURL=Footer.css.map */
