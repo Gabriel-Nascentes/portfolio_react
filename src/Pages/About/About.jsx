@@ -8,24 +8,25 @@ const About = () => {
   return (
     <div
       id="about"
-      className="container-about h-[900px] flex items-center justify-center "
+      className="container-about min-h-[900px] h-auto flex items-center justify-center "
     >
       <Nav></Nav>
-      <div className="text-white w-full  ">
-        <div className="about-box flex gap-[10%] mx-[15%] bg-blue-700 rounded-xl">
-          <div className="about-text w-1/2  p-10">
-            <h1 className="text-4xl font-bold pb-10 text-center ">
-              Desenvolvedor Front-end e Desing Ui/Ux
+      <div className="text-white w-full flex  justify-center ">
+        <div className="flex flex-wrap max-w-[1000px] bg-blue-700 rounded-xl mx-[30px]">
+          <div className="p-10 w-1/2 max-[860px]:w-full">
+            <h1 className="text-3xl font-bold pb-10 text-center max-sm:text-2xl  ">
+              Desenvolvedor Full-Stack e Desing Ui/Ux
             </h1>
-            <p className="w-[2/4] text-xl">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
-              libero id nulla suscipit voluptates quos impedit nemo. Soluta, qui
-              voluptas.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Facere libero id nulla suscipit voluptates quos impedit nemo.
-              Soluta, qui voluptas.
+            <p className="text-xl max-sm:text-lg">
+              Olá, sou Gabriel Nascentes, um desenvolvedor full-stack de 32
+              anos. Embora minha formação seja em engenharia de
+              telecomunicações, estou atualmente fazendo a transição para o
+              empolgante mundo da tecnologia da informação. Sou altamente
+              comprometido e responsável, e estou constantemente em busca de
+              aprimorar meus conhecimentos nessa área em rápida evolução.
             </p>
           </div>
-          <div className="about-animation w-1/2 p-10 flex items-center ">
+          <div className="max-w-[400px] flex m-auto mb-12 max-sm:w-[80%]">
             <MenAnimation></MenAnimation>
           </div>
         </div>

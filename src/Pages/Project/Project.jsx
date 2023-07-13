@@ -37,7 +37,7 @@ const Project = () => {
               title="Meu portifolio"
               description="Ele foi desenvolvido utilizando React. "
               github="https://github.com/Gabriel-Nascentes/portfolio_react"
-              site="https://memory-game-kappa-murex.vercel.app/"
+              site={"/"}
               boxIcon={
                 <>
                   <BoxIcon icon={<FaReact></FaReact>}></BoxIcon>
@@ -124,7 +124,6 @@ const Project = () => {
                 </>
               }
             ></BoxProject>
-            <BoxProject title="Estudando..."></BoxProject>
           </div>
         </div>
       </div>
