@@ -15,7 +15,7 @@ const About = () => {
         <div className="flex flex-wrap max-w-[1000px] bg-blue-700 rounded-xl mx-[30px]">
           <div className="p-10 w-1/2 max-[860px]:w-full">
             <h1 className="text-3xl font-bold pb-10 text-center max-sm:text-2xl  ">
-              Desenvolvedor Full-Stack e Desing Ui/Ux
+              Desenvolvedor Full-Stack
             </h1>
             <p className="text-xl max-sm:text-lg">
               Olá, sou Gabriel Nascentes, um desenvolvedor full-stack de 32
